@@ -1,0 +1,101 @@
+/* Set the background color of the page */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* Style the navbar logo */
+.navbar-logo {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-logo-hypen {
+  color: #ff005a;
+}
+
+/* Style the navlinks */
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navlinks_list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navlinks_list li {
+  margin-right: 20px;
+}
+
+.navlinks_list a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navlinks_list a:hover {
+  color: #ff005a;
+}
+
+/* Style the header */
+.header {
+  text-align: center;
+  font-size: 3rem;
+  color: #ff005a;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Style the appetizers, main courses, and desserts headings */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Style the appetizers, main courses, and desserts lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li {
+  margin: 10px;
+  flex-basis: calc(33.33% - 20px);
+}
+
+ul li p {
+  margin: 10px 0;
+}
+
+/* Style the contact link */
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff005a;
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+
+a:hover {
+  background-color: #333;
+}
