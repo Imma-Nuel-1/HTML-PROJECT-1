@@ -3,121 +3,170 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TOSMAD CONFECTIONERY</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>HTML PROJECT 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar">
-      <!-- logo -->
-      <div class="navbar-logo">
-        <p>TOS<span class="navbar-logo-hypen">-</span>MAB</p>
+      <div class="navbar_logo">
+        <p>A<span class="navbar_logo_dot">.</span>PICK</p>
       </div>
 
-      <!-- navlinks -->
-      <nav class="navlinks">
-        <!-- list of links -->
+      <!-- navllinks  -->
+      <div class="navlinks">
         <ul class="navlinks_list">
-          <!-- link to home page -->
-          <li><a href="#">MENU</a></li>
-          <!-- link to about page -->
-          <li><a href="#">DEALS</a></li>
-          <!-- link to services page -->
-          <li><a href="#">STORES</a></li>
-          <!-- link to contact page -->
-          <li><a href="#">TRACKER</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
         </ul>
-      </nav>
+      </div>
     </nav>
 
     <!-- hero section -->
-    <h1 class="header">TOSMAD CONFECTIONERY MENU</h1>
+    <section class="hero">
+      <div class="hero_content">
+        <!-- social media icons  -->
+        <div class="hero_content_icons">
+          <div><ion-icon name="logo-facebook"></ion-icon></div>
+          <div><ion-icon name="logo-twitter"></ion-icon></div>
+          <div><ion-icon name="logo-pinterest"></ion-icon></div>
+          <div><ion-icon name="logo-instagram"></ion-icon></div>
+          <div><ion-icon name="at"></ion-icon></div>
+        </div>
 
-    <h2>Appetizers</h2>
+        <!-- website header  -->
+        <h1 class="website_header">I am Adesanya Olumuyiwa Emmanuel.</h1>
 
-    <ul>
-      <!-- list of appetizers -->
-      <li>
-        <!-- appetizer item -->
-        <strong>Caprese Salad</strong>
-        <!-- description of appetizer -->
-        <p>
-          Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.
+        <!-- subheader  -->
+        <p class="website_subheader">
+          I am Emmanuel, I just started learning web development.
         </p>
-      </li>
 
-      <!-- more appetizer items -->
-      <li>
-        <strong>Meat Pie</strong>
-        <p>
-          Shortcrust pastry, filled with a minced meat mixture that had potatoes
-          and carrots.
-        </p>
-      </li>
+        <!-- nav buttons  -->
+        <div class="website_button">
+          <button class="p_logo">My portfolio</button>
+          <button class="y_logo"><ion-icon name="logo-youtube"></ion-icon></button>
+      </div>
+    </section>
 
-      <li>
-        <strong>Asun Rice</strong>
-        <p>
-          Goat meat stock, rice, red bell pepper, onion, scotch bonnet, green
-          chili, curry seasoning, garlic and ginger powder blend, and oil.
+    <!-- info section  -->
+    <section class="info">
+      <div class="info_content">
+        <!-- info nav  -->
+        <p class="info_nav">SERVICES</p>
+        <!-- info heder  -->
+        <h1 class="info_header">My Service</h1>
+        <!-- info subheader  -->
+        <p class="info_subheader">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat id
+          aspernatur veniam commodi voluptate mollitia animi est harum,
         </p>
-      </li>
+      </div>
+    </section>
+    
+    <!-- audio section -->
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5TaFRkuzI6Gbm9BKsArO3t?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <!-- services section  -->
+    <div class="services">
+    <div class="services_content">
+    <div class="services_contents">
+      <h1 class="services_content_header">Web Development</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </div>
+    <div class="services_contents">
+      <h1 class="services_content_header">Web design</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </div>
+    <div class="services_contents">
+      <h1 class="services_content_header">Video Editing</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </div>
+    <div class="services_contents">
+      <h1 class="services_content_header">Photography</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </div>
+    <div class="services_contents">
+      <h1 class="services_content_header">App developing</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </div>
+    <div class="services_contents">
+      <h1 class="services_content_header">SEO Export</h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </div>
+  </div>
+    </div>
+
+    <!-- resume section -->
+    <section class="resume">
+      <div class="resume_content">
+      <h1 class="resume_header">Resume</h1>
+      <div class="resume_details">
+      <h2 class="resume_title">Education</h2>
+      <p class="resume_text">
+        Bachelor of Science in Computer Science, University of XYZ (2016-2020)
+      </p>
+      <h2 class="resume_title">Experience</h2>
+      <p class="resume_text">
+        Web Developer, ABC Company (2020-Present)
+      </p>
+      <h2 class="resume_title">Skills</h2>
+      <p class="resume_text">
+        HTML, CSS, JavaScript, React, Node.js
+      </p>
+      <h2 class="resume_title">Certifications</h2>
+      <p class="resume_text">
+        Certified Web Developer, W3Schools (2020)
+      </p>
+    </div>
+  </div>
+    </section>
+
+    <!-- contact section -->
+   <section class="contact">
+    <div class="contact_content">
+    <h1 class="contact_header">Contact</h1>
+    <div class="contact_details">
+       <p class="contact_text">
+        Email: <a href="mailto:youremail@example.com">youremail@example.com</a>
+       </p>
+       <p class="contact_text">
+        Phone: <a href="tel:123-456-7890">080-0000-000-</a>
+       </p>
+       <p class="contact_text">
+        Address: 123 Florida, USA
+      </p>
+    </div>
+   </div>
+   </section>
+
+   <!-- footer -->
+<footer>
+  <div class="footer_content">
+    <p class="footer_text">
+      &copy; 2023 My Website. All rights reserved.
+    </p>
+    <ul class="footer_links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
+  </div>
+</footer>
 
-    <!-- main course -->
-    <h2>Main Courses</h2>
-
-    <ul>
-      <!-- list of main courses -->
-      <li>
-        <!-- main course item -->
-        <strong>Grilled Salmon</strong>
-        <!-- description of main course -->
-        <p>
-          Salmon fillet seasoned and grilled to perfection, served with lemon
-          butter sauce.
-        </p>
-      </li>
-
-      <!-- more main course items -->
-      <li>
-        <strong>Butter chicken</strong>
-        <p>Chicken with a spiced tomato and butter (makhan) sauce.</p>
-      </li>
-
-      <li>
-        <strong>Chicken cordon bleu</strong>
-        <p>
-          Chicken cutlets, cooked ham, Swiss cheese, bread crumbs, and simple
-          spices.
-        </p>
-      </li>
-    </ul>
-
-    <!-- dessert -->
-    <h2>Desserts</h2>
-
-    <ul>
-      <!-- list of desserts -->
-      <li>
-        <!-- dessert item -->
-        <strong>Chocolate Fondue</strong>
-        <!-- description of dessert -->
-        <p>
-          Assorted fruits and marshmallows served with rich chocolate fondue.
-        </p>
-      </li>
-
-      <!-- more dessert items -->
-      <li>
-        <strong>Brandy Alexander</strong>
-        <p>
-          11/2 ounces cognac, 1 ounce dark creme de cacao, 1 ounce cream,
-          Garnish: grated nutmeg
-        </p>
-      </li>
-    </ul>
-
-    <p><a href="contact.html">Contact us for reservations</a></p>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>
